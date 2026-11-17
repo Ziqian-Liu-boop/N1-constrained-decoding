@@ -1,0 +1,15 @@
+{
+  "U-Sleep": {
+    "model": "u-sleep-nsrr-2024.onnx",
+    "distribution": "https://github.com/paulzerr/nidra",
+    "file_sha256": "0e9241267fada6e308f83dd96c4cebd80412028e4bb5ff67cfe7272b77c9d7bb"
+  },
+  "DeepResNet": {
+    "model": "deepresnet-nsrr-2024_eeg/model/@epoch_1169_val_dice_0.75730.h5",
+    "distribution": "https://github.com/biomedical-signal-processing/sleepyland",
+    "source_commit": "db420a5c1d3329304907d14f9b3b314fa6605aa9",
+    "local_file_sha256": "aaf3897b65ac284ca8183dbb65c1e7af64505db2955f15cb62436512f0c87984",
+    "inference_image_digest": "sha256:2c2b523d1237f8ec3640535ee5a031c1c4edcb9b8b954a739745868f0a801217",
+    "provenance": "The checksum identifies the local H5 file. The image digest identifies the inference environment."
+  }
+}

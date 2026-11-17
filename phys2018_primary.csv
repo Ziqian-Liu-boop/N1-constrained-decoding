@@ -1,0 +1,21 @@
+figure,model,method,metric,estimate,ci95_low,ci95_high,event_nights,nights
+5,usleep,,Full minus Original N1 F1 (pp),2.6803893457363586,,,,
+5,usleep,,Original minus Full MAE (min),4.2040481400437635,3.8911241794310722,4.509874179431072,,
+6,usleep,,Unconstrained Bias minus Full rate (pp),27.35229759299781,24.398249452954047,30.306345733041574,,
+"5, 6",usleep,Original,MAE (min),38.701859956236326,,,,914
+"5, 6",usleep,Full,MAE (min),34.49781181619256,,,,914
+"5, 6",usleep,Full,Absolute error increase >=10 min (%),0.9846827133479212,,,9,914
+"5, 6",usleep,Unconstrained Bias,MAE (min),28.477024070021884,,,,914
+"5, 6",usleep,Unconstrained Bias,Absolute error increase >=10 min (%),28.336980306345733,,,259,914
+"5, 6",usleep,Aligned Bias,MAE (min),34.554157549234134,,,,914
+"5, 6",usleep,Aligned Bias,Absolute error increase >=10 min (%),0.9846827133479212,,,9,914
+5,deepresnet,,Full minus Original N1 F1 (pp),6.342006424060003,,,,
+5,deepresnet,,Original minus Full MAE (min),7.946389496717725,7.639483041575493,8.2445295404814,,
+6,deepresnet,,Unconstrained Bias minus Full rate (pp),24.179431072210065,21.444201312910284,27.024070021881837,,
+"5, 6",deepresnet,Original,MAE (min),46.15645514223195,,,,914
+"5, 6",deepresnet,Full,MAE (min),38.21006564551422,,,,914
+"5, 6",deepresnet,Full,Absolute error increase >=10 min (%),1.5317286652078774,,,14,914
+"5, 6",deepresnet,Unconstrained Bias,MAE (min),30.562363238512035,,,,914
+"5, 6",deepresnet,Unconstrained Bias,Absolute error increase >=10 min (%),25.711159737417944,,,235,914
+"5, 6",deepresnet,Aligned Bias,MAE (min),38.27899343544858,,,,914
+"5, 6",deepresnet,Aligned Bias,Absolute error increase >=10 min (%),1.5317286652078774,,,14,914

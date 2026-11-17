@@ -1,0 +1,7 @@
+{
+  "seed20": 20261001,
+  "seed40": 20261002,
+  "bootstrap_draws": 5000,
+  "primary_bootstrap_seed": 202610014,
+  "comparison_bootstrap_seed": 20261030
+}
